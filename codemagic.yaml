@@ -1,4 +1,5 @@
 workflows:
-  scripts:
-    name: Build for Android
-    script: flutter build android
+  flutterApp:
+    scripts:
+      - name: Build for Android
+        script: flutter build android
