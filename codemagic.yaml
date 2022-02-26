@@ -2,4 +2,4 @@ workflows:
   flutterApp:
     scripts:
       - name: Build for Android
-        script: flutter build android
+        script: flutter build apk
