@@ -1,5 +1,9 @@
 workflows:
   flutterApp:
     scripts:
-      - name: Build for Android
-        script: flutter build apk
+      - name: Build for IOS
+        script: flutter build ipa
+    publishing:
+      email:
+        recipients:
+          - sterallion@gmail.com
